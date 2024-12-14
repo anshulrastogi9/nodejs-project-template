@@ -2,8 +2,6 @@
 
 This `CHANGELOG.md` document serves as a chronological record of changes, updates, and releases made to the project over time. It provides a structured overview of new features, enhancements, bug fixes, and other modifications introduced in each version or release.
 
-bccc
-
 ## Table Of Content
 
 - [Changelog](#changelog)
