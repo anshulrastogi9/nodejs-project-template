@@ -16,17 +16,87 @@
 
   // Configure tool-specific properties.
   "customizations": {
+    // Configure tool-specific properties.
     "vscode": {
+      // VS Code Extensions
       "extensions": [
+        "bierner.emojisense",
+        "akross.attributes-collapse",
+        "lukegeneva.auto-collapse-explorer",
+        "allergan-bt.auto-collapse-blocks",
+        "dart-code.dart-code",
+        "ms-vscode-remote.remote-containers",
+        "ms-azuretools.vscode-docker",
+        "dsznajder.es7-react-js-snippets",
         "dbaeumer.vscode-eslint",
+        "csholmq.excel-to-markdown-table",
+        "dart-code.flutter",
+        "donjayamanne.githistory",
+        "github.vscode-github-actions",
+        "github.vscode-pull-request-github",
+        "eamodio.gitlens",
+        "ms-python.isort",
+        "ms-toolsai.jupyter",
+        "ms-toolsai.vscode-jupyter-cell-tags",
+        "ms-toolsai.jupyter-keymap",
+        "ms-toolsai.jupyter-renderers",
+        "ms-toolsai.vscode-jupyter-slideshow",
+        "ms-kubernetes-tools.vscode-kubernetes-tools",
+        "yzhang.markdown-all-in-one",
+        "bierner.markdown-checkbox",
+        "bierner.markdown-emoji",
+        "bat67.markdown-extension-pack",
+        "telesoho.vscode-markdown-paste-image",
+        "yzane.markdown-pdf",
+        "shd101wyy.markdown-preview-enhanced",
+        "bierner.markdown-preview-github-styles",
+        "mdickin.markdown-shortcuts",
+        "darkriszty.markdown-table-prettify",
+        "goessner.mdmath",
+        "davidanson.vscode-markdownlint",
+        "christian-kohler.npm-intellisense",
+        "ionutvmi.path-autocomplete",
         "esbenp.prettier-vscode",
-        "ms-vscode.vscode-typescript-next"
+        "willumz.generic-pseudocode",
+        "ms-python.vscode-pylance",
+        "ms-python.python",
+        "ms-python.debugpy",
+        "mechatroner.rainbow-csv",
+        "msjsdiag.vscode-react-native",
+        "juanblanco.solidity",
+        "beaugunderson.solidity-extended",
+        "ms-vscode-remote.remote-wsl",
+        "dotjoshjohnson.xml",
+        "redhat.vscode-yaml"
+        // "ms-vscode.vscode-typescript-next"
       ],
-      // Workspace settings
+
+      // VS Code Workspace settings
       "settings": {
-        "typescript.tsdk": "node_modules/typescript/lib",
+        "terminal.integrated.defaultProfile.windows": "Git Bash",
+        "git.autofetch": true,
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.formatOnSave": true,
+        "editor.formatOnType": true,
+        "notebook.formatOnCellExecution": true,
+        "notebook.formatOnSave.enabled": true,
+        "css.format.braceStyle": "expand",
+        "editor.formatOnPaste": true,
+        "less.format.braceStyle": "expand",
+        "scss.format.braceStyle": "expand",
+        "css.format.spaceAroundSelectorSeparator": true,
+        "css.format.maxPreserveNewLines": 2,
+        "git.confirmSync": false,
+        "javascript.updateImportsOnFileMove.enabled": "always",
+        "editor.largeFileOptimizations": false,
         "terminal.integrated.defaultProfile.linux": "bash",
-        "editor.formatOnSave": true
+        "git.openRepositoryInParentFolders": "always",
+        "git.enableSmartCommit": true,
+        "typescript.updateImportsOnFileMove.enabled": "always",
+        "files.autoSave": "afterDelay"
+        // "typescript.tsdk": "node_modules/typescript/lib",
+        // "terminal.integrated.defaultProfile.linux": "bash",
+        // "editor.formatOnSave": true
       }
     }
   },
